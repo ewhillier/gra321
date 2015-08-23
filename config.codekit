@@ -40,6 +40,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/weekend-project\/_\/images\/about-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.55644e+06,
+		"inputAbbreviatedPath": "\/weekend-project\/_\/images\/about-bg.png",
+		"outputAbbreviatedPath": "\/weekend-project\/_\/images\/about-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/weekend-project\/_\/images\/down-arrow-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2963,
+		"inputAbbreviatedPath": "\/weekend-project\/_\/images\/down-arrow-white.png",
+		"outputAbbreviatedPath": "\/weekend-project\/_\/images\/down-arrow-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/weekend-project\/_\/images\/down-arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,

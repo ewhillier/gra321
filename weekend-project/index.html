@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Weekend Project</title>
-<link rel="stylesheet" type="text/css" href="_/css/main.css">
-<link rel="stylesheet" type="text/css" href="_/css/normalize.css">
+	<meta charset="UTF-8">
+	<title>Weekend Project</title>
+	<link rel="stylesheet" type="text/css" href="_/css/normalize.css">
+	<link href='http://fonts.googleapis.com/css?family=Palanquin:400,100,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="_/full-page/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="_/css/main.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="_/full-page/jquery.fullPage.js"></script>
 </head>
 
 <body>
 	
-	<section class="section section-main">
+	<main id="fullpage">
+		<section class="section section-home">
+			<div class="wrapper">
+				<h1>ew</h1>
+			</div>
+		</section>
 		
-	</section>
+		<section class="section section-about">
+			<h1>Trying to get it to work</h1>	        
+		</section>
+		
+		<section class="section section-resources">
+			<h1>This is my site.</h1>
+		</section>
+		
+		<section class="section section-timecount">
+			<h1>Trying to get it to work</h1>
+		</section>
+	</main>
 	
-	<section class="section section-about">
-		
-	</section>
+	<script> 
+		$(document).ready(function() {
+			$('#fullpage').fullpage();
+		});
+	</script>
 	
-	<section class="section section-resources">
-		
-	</section>
 	
-	<section class="section section-time-count">
-		
-	</section>
 
 </body>
 

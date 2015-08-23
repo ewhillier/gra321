@@ -20,6 +20,26 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/weekend-project\/_\/full-page\/jquery.fullPage.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/weekend-project\/_\/full-page\/jquery.fullPage.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/weekend-project\/_\/full-page\/jquery.fullPage.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/weekend-project\/_\/full-page\/jquery.fullPage.js",
+		"outputAbbreviatedPath": "\/weekend-project\/_\/full-page\/min\/jquery.fullPage-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/weekend-project\/_\/images\/profile-photo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -40,6 +60,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/weekend-project\/_\/sass\/base.scss",
 		"outputAbbreviatedPath": "\/weekend-project\/_\/css\/base.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/weekend-project\/_\/sass\/layout.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/weekend-project\/_\/sass\/layout.scss",
+		"outputAbbreviatedPath": "\/weekend-project\/_\/css\/layout.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

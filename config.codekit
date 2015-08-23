@@ -20,8 +20,19 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/weekend-project\/_\/images\/profile-photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121729,
+		"inputAbbreviatedPath": "\/weekend-project\/_\/images\/profile-photo.jpg",
+		"outputAbbreviatedPath": "\/weekend-project\/_\/images\/profile-photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/weekend-project\/_\/sass\/base.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -37,11 +48,11 @@
 		"useLibsass": 0
 		},
 	"\/weekend-project\/_\/sass\/main.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/weekend-project\/_\/sass\/main.scss",
 		"outputAbbreviatedPath": "\/weekend-project\/_\/css\/main.css",
@@ -53,7 +64,7 @@
 		"useLibsass": 0
 		},
 	"\/weekend-project\/_\/sass\/mixins.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -68,8 +79,24 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/weekend-project\/_\/sass\/modules\/sections.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/weekend-project\/_\/sass\/modules\/sections.scss",
+		"outputAbbreviatedPath": "\/weekend-project\/_\/sass\/css\/sections.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/weekend-project\/_\/sass\/variables.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,

@@ -1,0 +1,26 @@
+.nav-arrow {
+	position: absolute;
+	left: 49%;
+	bottom: 20px;
+	
+}
+
+.link {
+	display: inline-block;
+	margin: 0;
+	margin-top: 20px;
+	padding: 5px 15px;
+	border: 1px solid white;
+	border-radius: 5px;
+	cursor: hand;
+	
+	&:hover, 
+	&:focus {
+		color: $grayblue;
+		background-color: #fff;
+	}
+	
+	a {
+		color: white;
+	}
+}

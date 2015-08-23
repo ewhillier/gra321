@@ -1,6 +1,22 @@
-.wrapper {
-	max-width: 1200px;
-	margin: auto;
-	padding: 100px;
+.section {
+	position: relative;
 	
+}
+
+.wrapper {
+	margin: auto;
+	padding: 0 10%;	
+}
+
+.column {
+	width: 45%;
+	float: left;
+}
+
+.left-column {
+	margin: 0 5% 0 0;
+}
+
+.right-column {
+	margin: 0 0 0 5%;
 }

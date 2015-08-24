@@ -43,7 +43,24 @@
 			text-decoration: underline;
 		}
 	}
-	
+}
+
+#software-time {
+	width: 40px;
+	height: 20px;
+	background-color: $grayblue;
+}
+
+#design-time {
+	width: 100px;
+	height: 20px;
+	background-color: $grayblue;
+}
+
+#code-time {
+	width: 400px;
+	height: 20px;
+	background-color: $grayblue;
 }
 
 

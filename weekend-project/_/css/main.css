@@ -120,6 +120,21 @@ ul {
     .section-resources a:hover, .section-resources a:focus {
       text-decoration: underline; }
 
+#software-time {
+  width: 40px;
+  height: 20px;
+  background-color: #515c68; }
+
+#design-time {
+  width: 100px;
+  height: 20px;
+  background-color: #515c68; }
+
+#code-time {
+  width: 400px;
+  height: 20px;
+  background-color: #515c68; }
+
 .nav-arrow {
   position: absolute;
   left: 49%;

@@ -1,3 +1,4 @@
+/*----- BASE STYLES -----*/
 * {
   box-sizing: border-box; }
 
@@ -38,6 +39,7 @@ ul {
   padding: 0;
   color: black; }
 
+/*----- LAYOUT STYLES -----*/
 .section {
   position: relative; }
 
@@ -55,6 +57,7 @@ ul {
 .right-column {
   margin: 0 0 0 5%; }
 
+/*----- MASTHEAD STYLES -----*/
 .section-home h1 {
   float: left;
   margin: 30px 8px 0 0;
@@ -67,8 +70,7 @@ ul {
   margin: 15px 0 0 0;
   font-size: 18px;
   font-weight: 100;
-  letter-spacing: 1.5px;
-  opacity: .5; }
+  letter-spacing: 1.5px; }
 .section-home ul {
   position: absolute;
   right: 15%;
@@ -80,8 +82,7 @@ ul {
   display: inline-block;
   font-size: 14px;
   font-weight: 100;
-  letter-spacing: 1.5px;
-  opacity: .75; }
+  letter-spacing: 1.5px; }
   .section-home li a {
     color: #c6af9c; }
   .section-home li:hover, .section-home li:focus {
@@ -90,9 +91,14 @@ ul {
 .masthead-logo {
   position: absolute;
   left: 15%; }
+  .masthead-logo:after {
+    content: "";
+    display: table;
+    clear: both; }
 
+/*----- SECTION STYLES -----*/
 .section-home {
-  background-image: url(../images/profile-photo.jpg);
+  background-image: url(../images/profile-photo-squares.jpg);
   background-size: cover;
   background-position: center bottom;
   color: #c6af9c; }
@@ -135,6 +141,7 @@ ul {
   height: 20px;
   background-color: #515c68; }
 
+/*----- ARROWS / BUTTONS STYLES -----*/
 .nav-arrow {
   position: absolute;
   left: 49%;

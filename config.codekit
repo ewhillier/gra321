@@ -82,6 +82,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/weekend-project\/_\/images\/profile-photo-squares.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111449,
+		"inputAbbreviatedPath": "\/weekend-project\/_\/images\/profile-photo-squares.jpg",
+		"outputAbbreviatedPath": "\/weekend-project\/_\/images\/profile-photo-squares.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/weekend-project\/_\/images\/profile-photo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box; }
+
 body {
   font-family: 'Palanquin', sans-serif;
   font-weight: lighter; }
@@ -52,26 +55,47 @@ ul {
 .right-column {
   margin: 0 0 0 5%; }
 
+.section-home h1 {
+  float: left;
+  margin: 30px 8px 0 0;
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 10px;
+  opacity: .75; }
+.section-home h2 {
+  float: left;
+  margin: 15px 0 0 0;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  opacity: .5; }
+.section-home ul {
+  position: absolute;
+  right: 15%;
+  margin: 20px 0 0 0;
+  float: left; }
+.section-home li {
+  margin-right: 15px;
+  padding-bottom: 5px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  opacity: .75; }
+  .section-home li a {
+    color: #c6af9c; }
+  .section-home li:hover, .section-home li:focus {
+    border-bottom: 2px solid #c6af9c; }
+
+.masthead-logo {
+  position: absolute;
+  left: 15%; }
+
 .section-home {
   background-image: url(../images/profile-photo.jpg);
   background-size: cover;
   background-position: center bottom;
   color: #c6af9c; }
-  .section-home h1 {
-    float: left;
-    margin: 0;
-    margin-top: 30px;
-    font-size: 48px;
-    font-weight: normal;
-    line-height: 10px;
-    opacity: .75; }
-  .section-home h2 {
-    float: left;
-    margin: 15px 0 0 8px;
-    font-size: 18px;
-    font-weight: 100;
-    letter-spacing: 1.5px;
-    opacity: .5; }
 
 .section-about {
   padding: 0;
@@ -85,9 +109,16 @@ ul {
     margin-top: 12%; }
 
 .section-resources {
-  background-color: #c6af9c; }
+  color: #515c68;
+  background-color: #f9f3ef;
+  background-image: url(../images/resources-bg.png);
+  background-size: cover; }
   .section-resources .column {
     margin-top: 12%; }
+  .section-resources a {
+    color: #515c68; }
+    .section-resources a:hover, .section-resources a:focus {
+      text-decoration: underline; }
 
 .nav-arrow {
   position: absolute;

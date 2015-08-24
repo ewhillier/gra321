@@ -1,0 +1,51 @@
+.section-home {
+	
+	h1 {
+		float: left;
+		margin: 30px 8px 0 0;
+		font-size: 48px;
+		font-weight: normal;
+		line-height: 10px;
+		opacity: .75;
+	}
+	
+	h2 {
+		float: left;
+		margin: 15px 0 0 0;
+		font-size: 18px;
+		font-weight: 100;
+		letter-spacing: 1.5px;
+		opacity: .5;
+	}
+	
+	ul {
+		position: absolute;
+		right: 15%;
+		margin: 20px 0 0 0;
+		float: left;
+	}
+	
+	li {
+		margin-right: 15px;
+		padding-bottom: 5px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: 100;
+		letter-spacing: 1.5px;
+		opacity: .75;
+		
+		a {
+			color: $tan;
+		}
+		
+		&:hover,
+		&:focus {
+			border-bottom: 2px solid $tan;
+		}
+	}
+}
+
+.masthead-logo {
+	position: absolute;
+	left: 15%;
+}

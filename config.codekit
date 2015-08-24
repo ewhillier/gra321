@@ -84,6 +84,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/weekend-project\/_\/images\/resources-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 539996,
+		"inputAbbreviatedPath": "\/weekend-project\/_\/images\/resources-bg.png",
+		"outputAbbreviatedPath": "\/weekend-project\/_\/images\/resources-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/weekend-project\/_\/sass\/base.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -157,6 +168,22 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/weekend-project\/_\/sass\/modules\/arrows-buttons.scss",
 		"outputAbbreviatedPath": "\/weekend-project\/_\/sass\/css\/arrows-buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/weekend-project\/_\/sass\/modules\/masthead.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/weekend-project\/_\/sass\/modules\/masthead.scss",
+		"outputAbbreviatedPath": "\/weekend-project\/_\/sass\/css\/masthead.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

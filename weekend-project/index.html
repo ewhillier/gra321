@@ -16,14 +16,15 @@
 	<main id="fullpage">
 		<section class="section section-home">
 			<div class="wrapper">
-				<h1>ew</h1>
-				<h2>eve whillier</h2>		
+				<div class="masthead-logo">
+					<h1>ew</h1>
+					<h2>eve whillier</h2>		
+				</div>
 				<ul id="menu">
-					<li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
-					<li data-menuanchor="secondPage" class=""><a href="#secondPage">Second section</a></li>
-					<li data-menuanchor="3rdPage"><a href="#3rdPage">Third section</a></li>
-					<li data-menuanchor="4thpage"><a href="#4thpage">Fourth section</a></li>
-				</ul>
+					<li data-menuanchor="secondPage" class=""><a href="#secondPage">about</a></li>
+					<li data-menuanchor="3rdPage"><a href="#thirdPage">resources</a></li>
+					<li data-menuanchor="4thpage"><a href="#thirdPage">time count</a></li>
+			</ul>
 				<img class="nav-arrow" src="_/images/down-arrow.png" alt="arrow indicating you can scroll down">	
 			</div>
 		</section>
@@ -34,7 +35,7 @@
 					<h1>Let Me Tell You a Story</h1>
 					<p>It’s a boring one, so bear with me. I was born and raised in Waterloo, Ontario Canada by two South African parents. My four South African brothers are to blame for my personality. It’s been my dream to design for as long as I can remember. My love for design is rooted in typography. It is for this reason that Alexey Brodovitch’s work is immensely influential to my design style.</p>
 					<p>“Brodovitch believed that type and photographs are equal in their power. A single letter magnified to the size of a page is just as provocative and inspiring as a photo of a model wearing the latest fashions.”</p>  
-					<a class="link" href="#">View Source</a>    
+					<a class="link" href="http://guity-novin.blogspot.com/2010/05/chapter-32-advertisment-posters.html">View Source</a>    
 				</div>
 				<div class="column right-column">
 					<h1>Web Design Studio</h1>
@@ -52,26 +53,34 @@
 					<ul class="resource-list">
 						<li><a href="https://github.com/peachananr/onepage-scroll">One Page Scroll JS</a></li>
 						<li><a href="http://alvarotrigo.com/fullPage/">Full Page JS</a></li>
+						<li><a href="https://css-tricks.com/snippets/css/transparent-background-images/">CSS Tricks</a></li>
+						<li><a href="http://stackoverflow.com/">Stack Overflow</a></li>
+						<li><a href="http://www.dreamincode.net/">Dream in Code</a></li>
+						<li><a href="http://sass-lang.com/">Sass Basics</a></li>
+						<li><a href="https://developers.google.com/speed/libraries/">Google Developers</a></li>
+						<li><a href="https://www.google.com/fonts">Google Fonts</a></li>
+						<li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+						<li><a href="http://spencermortensen.com/articles/typographic-scale/">The Typographic Scale</a></li>
+						<li><a href="https://smacss.com/">SMACSS</a></li>
+						<li><a href="http://html5doctor.com/html-5-reset-stylesheet/">HTML5 Reset</a></li>
+						<li><a href="https://necolas.github.io/normalize.css/">Normalize CSS</a></li>
 					</ul>
 				</div>
 				<div class="column right-column">
-					<ul class="resource-list">
-						<li><a href="https://github.com/peachananr/onepage-scroll">One Page Scroll JS</a></li>
-						<li><a href="http://alvarotrigo.com/fullPage/">Full Page JS</a></li>
-					</ul>
+					<h1>Time Count</h1>
+					<div id="design-time">
+						
 				</div>
 			</div>
-		</section>
-		
-		<section class="section section-timecount">
-			<h1>Trying to get it to work</h1>
 		</section>
 	</main>
 	
 	<script> 
 		$(document).ready(function() {
-			$('#fullpage').fullpage();
-		});
+	    $('#fullpage').fullpage({
+        anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage']
+    	});
+    });
 	</script>
 	
 	

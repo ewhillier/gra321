@@ -24,6 +24,16 @@
 		right: 15%;
 		margin: 20px 0 0 0;
 		float: left;
+		
+		@media (max-width: 900px) {
+			right: 10%;
+		}
+		
+		@media (max-width: 320px) {
+			left: 10%;
+			top: 60px;
+		}
+		
 	}
 	
 	li {
@@ -33,6 +43,15 @@
 		font-size: 14px;
 		font-weight: 100;
 		letter-spacing: 1.5px;
+		
+		@media (max-width: 580px) {
+			display: block;
+			text-align: right;
+		}
+		
+		@media (max-width: 320px) {
+			text-align: left;
+		}
 		
 		a {
 			color: $tan;
@@ -50,4 +69,9 @@
 	left: 15%;
 	
 	@include clearfix;
+	
+	@media (max-width: 900px) {
+		left: 10%;
+	}
+	
 }

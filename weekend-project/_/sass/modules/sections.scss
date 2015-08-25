@@ -12,27 +12,81 @@
 .section-about {
 	padding: 0;
 	background-color: $grayblue;
-	background-image: url(../images/about-bg.png);
+	background-image: url(../images/about-bg.jpg);
 	background-size: cover;
 	color: #fff;
 	
 	h1 {
 		width: 70%;
+		
+		@media (max-width: 750px) {
+			margin-top: 0;
+			font-size: 36px;
 		}
+		
+		@media (max-width: 650px) {
+			margin-top: 0;
+			font-size: 24px;
+		}
+		
+	}
+	
+	p {
+		
+		@media (max-width: 750px) {
+			font-size: 14px;
+		}
+		
+		@media (max-width: 650px) {
+			font-size: 12px;
+		}
+		
+	}
 		
 	.column {
 		margin-top: 12%;
+		
+		@media (max-width: 650px) {
+			margin-top: 18%;
+		}
+		
 	}
 }
 
 .section-resources {
 	color: $grayblue;
 	background-color: $light-tan;
-	background-image: url(../images/resources-bg.png);
+	background-image: url(../images/resources-bg.jpg);
 	background-size: cover;
 	
 	.column {
 		margin-top: 12%;
+		
+		@media (max-width: 900px) {
+			margin-top: 18%;
+		}
+		
+		@media (max-width: 475px) {
+			margin-top: 30%;
+		}
+		
+	}
+	
+	.left-column {
+		@media (max-width: 900px) {
+			margin-right: 0;
+		}
+	}
+	
+	.right-column {
+		@media (max-width: 900px) {
+			margin-left: 0;
+		}
+		
+		@media (max-width: 475px) {
+			margin-top: 15%;
+		}
+		
 	}
 	
 	a {
@@ -43,24 +97,51 @@
 			text-decoration: underline;
 		}
 	}
+	
+	li {
+		
+		@media (max-width: 750px) {
+			display: inline;
+			margin-right: 10px;
+		}
+		
+	}
 }
 
 #software-time {
 	width: 40px;
 	height: 20px;
 	background-color: $grayblue;
+	
+	@media (max-width: 475px) {
+		width: 30px;
+		height: 15px;
+	}
+	
 }
 
 #design-time {
 	width: 100px;
 	height: 20px;
 	background-color: $grayblue;
+	
+	@media (max-width: 475px) {
+		width: 80px;
+		height: 15px;
+	}
+	
 }
 
 #code-time {
 	width: 400px;
 	height: 20px;
 	background-color: $grayblue;
+	
+	@media (max-width: 475px) {
+		width: 300px;
+		height: 15px;
+	}
+	
 }
 
 

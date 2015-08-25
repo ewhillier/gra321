@@ -11,14 +11,29 @@
 }
 
 .column {
-	width: 45%;
 	float: left;
+	width: 45%;
+	
+	@media (max-width: 750px) {
+		float: none;
+		width: 100%;
+	}
 }
 
 .left-column {
 	margin: 0 5% 0 0;
+	
+	@media (max-width: 750px) {
+		margin: 0;
+	}
+	
 }
 
 .right-column {
 	margin: 0 0 0 5%;
+	
+	@media (max-width: 750px) {
+		margin: 0;
+	}
+	
 }

@@ -98,7 +98,7 @@ ul {
   padding-bottom: 5px;
   display: inline-block;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: normal;
   letter-spacing: 1.5px; }
   @media (max-width: 580px) {
     .section-home li {

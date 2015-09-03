@@ -31,6 +31,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/guidelines\/img\/banner-i-can.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 275610,
+		"inputAbbreviatedPath": "\/guidelines\/img\/banner-i-can.png",
+		"outputAbbreviatedPath": "\/guidelines\/img\/banner-i-can.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/guidelines\/img\/banner-i-will.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -38,6 +49,17 @@
 		"initialSize": 142289,
 		"inputAbbreviatedPath": "\/guidelines\/img\/banner-i-will.jpg",
 		"outputAbbreviatedPath": "\/guidelines\/img\/banner-i-will.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/guidelines\/img\/banner-i-will.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/guidelines\/img\/banner-i-will.png",
+		"outputAbbreviatedPath": "\/guidelines\/img\/banner-i-will.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

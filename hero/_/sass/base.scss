@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Palanquin', sans-serif;
+	font-size: 12pt;
+	letter-spacing: .5px;
+	line-height: 1.54545455em;
+}
+
+h1 {
+	font-size: 18pt;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 19pt;
+	font-weight: 300;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: lightgray;
+}
+
+h3 {
+	font-size: 12pt;
+}
+
+hr {
+	color: $lightgray;
+	margin: 15px 0;
+}

@@ -1,0 +1,22 @@
+.featured {
+	width: 100%;
+	
+	p {
+		color: $lightgray;
+		margin-bottom: 30px; 
+	}
+}
+
+.tablet-features {
+	background-image: url('../images/blurred-background.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.tablet-thumbnail {
+	width: 100%;
+	max-width: 500px;
+	margin: auto;
+	display: block;
+}
+

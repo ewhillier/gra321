@@ -5,6 +5,7 @@
 body {
 	font-family: 'Palanquin', sans-serif;
 	font-size: 12pt;
+	font-weight: lighter;
 	letter-spacing: .5px;
 	line-height: 1.54545455em;
 }
@@ -29,4 +30,8 @@ h3 {
 hr {
 	color: $lightgray;
 	margin: 15px 0;
+}
+
+a {
+	text-decoration: none;
 }

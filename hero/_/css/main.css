@@ -4,6 +4,7 @@
 body {
   font-family: 'Palanquin', sans-serif;
   font-size: 12pt;
+  font-weight: lighter;
   letter-spacing: .5px;
   line-height: 1.54545455em; }
 
@@ -25,7 +26,11 @@ hr {
   color: #d1d3d4;
   margin: 15px 0; }
 
+a {
+  text-decoration: none; }
+
 .inner-wrapper {
+  clear: both;
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px; }
@@ -45,9 +50,17 @@ hr {
 .hero {
   width: 100%;
   height: 375px;
+  font-size: 18px;
+  text-transform: uppercase;
   background-image: url("../images/hero.jpg");
   background-size: cover;
   background-position: center center; }
+  .hero h1 {
+    margin-top: -20px;
+    margin-left: 40%;
+    margin-bottom: 10px; }
+  .hero .button {
+    margin-left: 40%; }
 
 .featured {
   width: 100%; }
@@ -74,5 +87,111 @@ hr {
     color: #fff; }
   .pen-features p {
     color: #fff; }
+
+.control img {
+  width: 240px;
+  height: 150px;
+  margin: 30px 0; }
+.control hr {
+  color: #d1d3d4; }
+.control h2 {
+  color: #000; }
+
+.options .column {
+  position: relative;
+  height: 200px;
+  background-size: cover; }
+.options .left-column {
+  background-image: url(../images/tablet-render-2.jpg); }
+.options .right-column {
+  background-image: url(../images/natural.jpg); }
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .overlay h2 {
+    position: absolute;
+    bottom: 25px;
+    display: inline; }
+  .overlay .button {
+    position: absolute;
+    left: 70%;
+    bottom: 18px;
+    display: inline; }
+
+.button {
+  padding: 10px 14px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px; }
+
+.button-black {
+  color: #d1d3d4;
+  background-color: #000; }
+
+.made-with {
+  clear: both; }
+  .made-with h2 {
+    text-transform: lowercase;
+    color: #000; }
+
+.samples {
+  height: 260px;
+  margin: 20px 0; }
+
+.made-with-sample {
+  float: left;
+  position: relative;
+  width: 43%;
+  margin: 5px; }
+
+.sample-img {
+  width: 100%; }
+
+.twitter-handler {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  font-weight: lighter;
+  background-color: rgba(0, 0, 0, 0.8); }
+  .twitter-handler a {
+    float: right;
+    color: #d1d3d4;
+    margin-right: 5px; }
+
+.footer {
+  clear: both;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 1.54583333em;
+  color: #d1d3d4;
+  background-color: #000; }
+  .footer a {
+    color: #d1d3d4; }
+  .footer .bamboo-logo {
+    margin: 0;
+    margin-bottom: 42px; }
+  .footer h3 {
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    text-transform: uppercase; }
+  .footer .fa {
+    margin: 0 5px; }
+
+.contact {
+  margin: 20px 0; }
+
+.fa:hover, .fa:focus {
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

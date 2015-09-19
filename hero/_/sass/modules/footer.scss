@@ -1,0 +1,44 @@
+.footer {
+	clear: both;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 12px;
+	line-height: 1.54583333em;
+	color: $lightgray;
+	background-color: $black;
+	
+	a {
+		
+		color: $lightgray;
+	}
+	
+	.bamboo-logo {
+		margin: 0;
+		margin-bottom: 42px;
+	}
+	
+	h3 {
+		float: left;
+		margin-right: 10px;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+	
+	.fa {
+		margin: 0 5px;
+	}
+		
+}
+
+.contact {
+	margin: 20px 0;
+}
+
+.fa {
+	
+	&:hover,
+	&:focus {
+		color: $white;
+	}
+	
+}

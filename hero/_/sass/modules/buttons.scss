@@ -1,0 +1,15 @@
+.button {
+	padding: 10px 14px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	color: $black;
+	background-color: $white;
+	border: none;
+	border-radius: 5px;
+}
+
+.button-black {
+	color: $lightgray;
+	background-color: $black;
+}

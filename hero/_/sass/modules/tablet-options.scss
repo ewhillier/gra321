@@ -1,0 +1,40 @@
+.options {
+	
+	
+	.column {
+		position: relative;		
+		height: 200px;
+		background-size: cover;	
+	}
+	
+	.left-column {
+		background-image: url(../images/tablet-render-2.jpg);
+	}
+	
+	.right-column {
+		background-image: url(../images/natural.jpg);
+	}
+	
+}
+
+.overlay {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	background-color: rgba(0, 0, 0, .8);
+	
+	h2 {
+		position: absolute;
+		bottom: 25px;
+		display: inline;
+	}
+	
+	.button {
+		position: absolute;
+		left: 70%;
+		bottom: 18px;
+		display: inline;
+	}
+	
+}

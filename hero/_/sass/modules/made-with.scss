@@ -1,0 +1,41 @@
+.made-with {
+	clear: both;
+	
+	h2{
+		text-transform: lowercase;
+		color: $black;
+	}
+	
+}
+
+.samples {
+	height: 260px;
+	margin: 20px 0;
+}
+
+.made-with-sample {
+	float: left;
+	position: relative;
+	width: 43%;
+	margin: 5px;
+}
+
+.sample-img {
+	width: 100%;
+}
+
+.twitter-handler {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 12px;
+	font-weight: lighter;
+	background-color: rgba(0, 0, 0, .8);
+	
+	a {
+		float: right;
+		color: $lightgray;
+		margin-right: 5px;
+	}
+	
+}

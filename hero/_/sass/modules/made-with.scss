@@ -8,12 +8,18 @@
 	
 	.inner-wrapper {
 		
+		overflow: visible;
+		
 		@media (min-width: 440px) {
 				height: 650px;
 		}
 		
 		@media (min-width: 640px) {
 				height: 750px;
+		}
+		
+		@media (min-width: 820px) {
+				height: 950px;
 		}
 	
 	}
@@ -22,7 +28,7 @@
 
 .samples {
 	height: 260px;
-	margin: 20px 0;
+	margin: 20px 0;	
 }
 
 .made-with-sample {
@@ -43,6 +49,12 @@
 	font-size: 12px;
 	font-weight: lighter;
 	background-color: rgba(0, 0, 0, .8);
+	
+	@media (min-width: 640px) {
+		height: 50px;
+		padding: 10px 10px 0 0;
+		font-size: 16px;
+	}
 	
 	a {
 		float: right;

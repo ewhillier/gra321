@@ -33,11 +33,25 @@
 	.fa {
 		margin: 0 5px;
 	}
+	
+	@media (min-width: 820px) {
+	
+		ul {
+			display: inline-block;
+			vertical-align: top;
+		}
+	
+	}
 		
 }
 
 .contact {
 	margin: 20px 0;
+	
+	@media (min-width: 820px) {
+		margin: 0 50px;
+	}
+	
 }
 
 .fa {

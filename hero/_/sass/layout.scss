@@ -1,6 +1,43 @@
 .inner-wrapper {
 	clear: both;
+	overflow: auto;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 40px;
+	
+	@media (min-width: 440px) {
+		padding: 50px;
+	}
+	
+}
+
+.column {
+	
+	@media (min-width: 640px) {
+		width: 90%;
+		margin: auto;
+	}
+	
+	@media (min-width: 820px) {
+		float: left;
+		width: 47%;
+	}
+	
+}
+
+.column-right {
+	
+	@media (min-width: 820px) {
+		margin-left: 20px;
+		float: right;
+	}
+	
+}
+
+.column-left {
+	
+	@media (min-width: 820px) {
+		margin-right: 20px;
+	}
+	
 }

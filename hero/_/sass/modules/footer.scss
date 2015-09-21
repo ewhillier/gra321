@@ -1,15 +1,21 @@
 .footer {
 	clear: both;
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 50px;
 	font-size: 12px;
 	line-height: 1.54583333em;
 	color: $lightgray;
 	background-color: $black;
 	
 	a {
-		
 		color: $lightgray;
+		
+		&:hover,
+		&:active,
+		&:focus {
+			color: $green;
+		}
+		
 	}
 	
 	.bamboo-logo {
@@ -38,7 +44,7 @@
 	
 	&:hover,
 	&:focus {
-		color: $white;
+		color: $green;
 	}
 	
 }

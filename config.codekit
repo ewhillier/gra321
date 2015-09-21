@@ -135,13 +135,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/hero\/_\/images\/IMG_7045-2.jpg": {
+	"\/hero\/_\/images\/img_7045-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 517220,
-		"inputAbbreviatedPath": "\/hero\/_\/images\/IMG_7045-2.jpg",
-		"outputAbbreviatedPath": "\/hero\/_\/images\/IMG_7045-2.jpg",
+		"inputAbbreviatedPath": "\/hero\/_\/images\/img_7045-2.jpg",
+		"outputAbbreviatedPath": "\/hero\/_\/images\/img_7045-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -282,15 +282,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/hero\/_\/sass\/css\/pen-features.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/hero\/_\/sass\/css\/pen-features.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/hero\/_\/sass\/layout.scss": {
 		"createSourceMap": 0,

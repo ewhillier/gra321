@@ -12,7 +12,7 @@ body {
 
 h1 {
 	font-size: 18pt;
-	font-weight: 600;
+	letter-spacing: 2px;
 }
 
 h2 {
@@ -34,4 +34,11 @@ hr {
 
 a {
 	text-decoration: none;
+	
+	&:hover,
+	&:active,
+	&:focus {
+		color: $green;
+	}
+	
 }

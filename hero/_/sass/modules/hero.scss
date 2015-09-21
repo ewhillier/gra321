@@ -7,14 +7,49 @@
 	background-size: cover;
 	background-position: center center;
 	
+	@media (min-width: 440px) {
+		height: 415px;	
+	}
+	
+	@media (min-width: 640px) {
+		height: 550px;
+	}
+	
+	@media (min-width: 820px) {
+		height: 850px;
+		margin-top: -50px;
+	}
+	
 	h1 {
 		margin-top: -20px;
 		margin-left: 40%;
 		margin-bottom: 10px;
+		
+		@media (min-width: 640px) {
+			font-weight: lighter;
+			font-size: 36px;
+			line-height: 1em;
+			margin-left: 50%;
+		}
+		
+		@media (min-width: 820px) {
+			margin-top: 80px;
+			margin-left: 52%;
+			
+			br {
+				display: none;
+			}
+		}
+		
 	}
 	
 	.button {
 		margin-left: 40%;
+		
+		@media (min-width: 640px) {
+			margin-left: 52%;
+		}
+		
 	}
 	
 }

@@ -4,7 +4,11 @@
 	height: 50px;
 	width: 100%;
 	background-color: $black;
-	opacity: .8;
+	opacity: .9;
+	
+	@media (min-width: 820px) {
+		opacity: .8;
+	}
 }
 
 .bamboo-logo {

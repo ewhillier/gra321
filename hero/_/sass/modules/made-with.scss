@@ -6,6 +6,18 @@
 		color: $black;
 	}
 	
+	.inner-wrapper {
+		
+		@media (min-width: 440px) {
+				height: 650px;
+		}
+		
+		@media (min-width: 640px) {
+				height: 750px;
+		}
+	
+	}
+	
 }
 
 .samples {
@@ -36,6 +48,13 @@
 		float: right;
 		color: $lightgray;
 		margin-right: 5px;
+		
+		&:hover,
+		&:active,
+		&:focus {
+			color: $green;
+		}
+	
 	}
 	
 }

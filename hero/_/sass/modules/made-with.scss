@@ -15,11 +15,15 @@
 		}
 		
 		@media (min-width: 640px) {
-				height: 750px;
+				height: 800px;
 		}
 		
 		@media (min-width: 820px) {
-				height: 950px;
+				height: 600px;
+		}
+		
+		@media (min-width: 920px) {
+				height: 750px;
 		}
 	
 	}
@@ -34,8 +38,15 @@
 .made-with-sample {
 	float: left;
 	position: relative;
-	width: 43%;
+	width: 40%;
 	margin: 5px;
+	
+	@media (min-width: 820px) {
+		width: 30%;
+		margin: 10px;
+	}
+	
+	
 }
 
 .sample-img {

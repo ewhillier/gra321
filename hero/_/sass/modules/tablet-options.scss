@@ -3,6 +3,10 @@
 	
 	.inner-wrapper {
 		padding: 0 50px;
+		
+		@media (min-width: 1120px) {
+			padding: 0 24%;
+		}
 	}
 	
 	.column {
@@ -41,7 +45,7 @@
 	height: 70px;
 	background-color: rgba(0, 0, 0, .8);
 	
-	@media (min-width: 820px) {
+	@media (min-width: 640px) {
 		height: 120px;
 	}
 	
@@ -50,7 +54,7 @@
 		bottom: 25px;
 		display: inline;
 		
-		@media (min-width: 820px) {
+		@media (min-width: 640px) {
 			bottom: 50px;
 		}
 		
@@ -59,14 +63,14 @@
 	.button {
 		position: absolute;
 		left: 60%;
-		bottom: 58px;
+		bottom: 18px;
 		display: inline;
 		
 		@media (min-width: 440px) {
 			left: 78%;
 		}
 		
-		@media (min-width: 820px) {
+		@media (min-width: 640px) {
 			left: 68%;
 			bottom: 45px;
 		}

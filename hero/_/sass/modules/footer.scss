@@ -7,6 +7,14 @@
 	color: $lightgray;
 	background-color: $black;
 	
+	.inner-wrapper {
+		
+		@media (min-width: 820px) {
+			padding: 50px;
+		}
+		
+	}
+	
 	a {
 		color: $lightgray;
 		
@@ -59,6 +67,14 @@
 	&:hover,
 	&:focus {
 		color: $green;
+	}
+	
+}
+
+.social-media {
+	
+	@media (min-width: 820px) {
+		float:right;
 	}
 	
 }
